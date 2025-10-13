@@ -19,6 +19,6 @@ class Gt < Formula
   end
 
   test do
-    system "#{bin}/gt", "--version"
+    system "#{bin}/gt", "version"
   end
 end
