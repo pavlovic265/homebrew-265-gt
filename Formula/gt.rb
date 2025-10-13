@@ -15,7 +15,7 @@ class Gt < Formula
   end
 
   def install
-    bin.install "gt"
+    bin.install "265-gt" => "gt"
   end
 
   test do
