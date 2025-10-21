@@ -5,21 +5,21 @@
 class Gt < Formula
   desc "Git workflow utility with intelligent branch management and automation"
   homepage "https://github.com/pavlovic265/265-gt"
-  version "0.56.4"
+  version "0.56.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/pavlovic265/265-gt/releases/download/v0.56.4/265-gt_Darwin_x86_64.tar.gz"
-      sha256 "fb759b1462422d6f5d2f42c178ad230031b161400df797f67ce6cba85253e55b"
+      url "https://github.com/pavlovic265/265-gt/releases/download/v0.56.6/265-gt_Darwin_x86_64.tar.gz"
+      sha256 "b1740ea059f4df0e5a944715034146b9bba0a9c7c8918fc6251aaf53c1fbfa23"
 
       def install
         bin.install "gt"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/pavlovic265/265-gt/releases/download/v0.56.4/265-gt_Darwin_arm64.tar.gz"
-      sha256 "e4a6d4099b643685cedf867149b74e17d3385d90fe2ccbcc523bf5eea4951e80"
+      url "https://github.com/pavlovic265/265-gt/releases/download/v0.56.6/265-gt_Darwin_arm64.tar.gz"
+      sha256 "7a45d4275d825bce9065619d4eb340d9b0d991f577e9d54edceeff9ce836603f"
 
       def install
         bin.install "gt"
@@ -29,15 +29,15 @@ class Gt < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/pavlovic265/265-gt/releases/download/v0.56.4/265-gt_Linux_x86_64.tar.gz"
-      sha256 "bffa16014c7f2e3c490523cdc3792800a0690ad61e032dbf79478ebd144621f9"
+      url "https://github.com/pavlovic265/265-gt/releases/download/v0.56.6/265-gt_Linux_x86_64.tar.gz"
+      sha256 "02b85d1503e2e83e2b9d4ecd847f1538ac5de393a9178054d456c746902265a7"
       def install
         bin.install "gt"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/pavlovic265/265-gt/releases/download/v0.56.4/265-gt_Linux_arm64.tar.gz"
-      sha256 "841c43854ca715ae746d8ca65da489c559ad0834f28813f5a4985109ab60918d"
+      url "https://github.com/pavlovic265/265-gt/releases/download/v0.56.6/265-gt_Linux_arm64.tar.gz"
+      sha256 "41e628eb7ee20d4563a7be46878fb5efe961ddcec3e6d120d1d034015ee735cc"
       def install
         bin.install "gt"
       end
