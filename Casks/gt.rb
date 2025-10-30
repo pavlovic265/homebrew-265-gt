@@ -3,7 +3,7 @@ cask "gt" do
   name "gt"
   desc "Git workflow utility with intelligent branch management and automation"
   homepage "https://github.com/pavlovic265/265-gt"
-  version "0.58.1"
+  version "0.58.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gt" do
   on_macos do
     on_intel do
       url "https://github.com/pavlovic265/265-gt/releases/download/v#{version}/265-gt_Darwin_x86_64.tar.gz"
-      sha256 "713310480e37f32c885faf217362a40e6ad46dc4f47b2592684bdadfa9ce6aa5"
+      sha256 "ca06d18cc61d721234bc72637df4d2b77641ac717fbcb07808cfa969e569017b"
     end
     on_arm do
       url "https://github.com/pavlovic265/265-gt/releases/download/v#{version}/265-gt_Darwin_arm64.tar.gz"
-      sha256 "28c6098d099b96b1f1c37a278e38a64283bfba8e5851d351575a37e83eca56cf"
+      sha256 "0a28c3430efffeef3221b222d59a3502d9268261c08dd2fc8a01404d5fa40fe1"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/pavlovic265/265-gt/releases/download/v#{version}/265-gt_Linux_x86_64.tar.gz"
-      sha256 "e69ef90ecae6081d9ce40b18d612192d3473ac345bd31b081c96e35f85c0a05d"
+      sha256 "0c66fada2bcc9140329eddac29e63cf5f58bff12b5dd2efdfc9254486244386f"
     end
     on_arm do
       url "https://github.com/pavlovic265/265-gt/releases/download/v#{version}/265-gt_Linux_arm64.tar.gz"
-      sha256 "955722713d94e1ebde1894230de94de557aa0bf3c79b31fe816cde38147db7bf"
+      sha256 "d6aec9817b69b3077a6d45463571fd5822d2237fe220c43d8763ccb5faa611a1"
     end
   end
 
