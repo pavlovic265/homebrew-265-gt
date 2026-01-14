@@ -14,22 +14,22 @@ cask "gt" do
   on_macos do
     on_intel do
       url "https://github.com/pavlovic265/265-gt/releases/download/v#{version}/265-gt_Darwin_x86_64.tar.gz"
-      sha256 "f8443fcbee521dd3cc9063656dad9193aab8781e3513fd9b463d1788ce5a7bad"
+      sha256 "cfcf950e8cbf73804f2c49abf37250ca7eb737a71f4b0c2e20489972a26f781b"
     end
     on_arm do
       url "https://github.com/pavlovic265/265-gt/releases/download/v#{version}/265-gt_Darwin_arm64.tar.gz"
-      sha256 "b2cfacd99fcba5d9fa2ada8d73ac5d1e2b20e721ce8de682dbe7fb5e9100afe9"
+      sha256 "fca51a6758daa2bb947aca9ff4cdbd587ef849ffac1c385ac352120bc5d914ee"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/pavlovic265/265-gt/releases/download/v#{version}/265-gt_Linux_x86_64.tar.gz"
-      sha256 "0b2536cbcae679dce6142d43c7664b0e7a9193fbe2d6888c534b5cf587ede0cf"
+      sha256 "b7e0e54b70e1a75dcd38c933a4117e701424f4ee339f2e2a04e37be8c7f6dfd0"
     end
     on_arm do
       url "https://github.com/pavlovic265/265-gt/releases/download/v#{version}/265-gt_Linux_arm64.tar.gz"
-      sha256 "89342a6f62ce062432de9b2b1d893d0c03fc1b412eb3f3f1ff25732ce89da0a3"
+      sha256 "6375837cc1cc8654affd7491d5f3c1041cde902a9650c67a9950e2614cddab5e"
     end
   end
 
